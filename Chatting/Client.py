@@ -12,7 +12,7 @@ sock.connect((HOST, PORT))
 username = raw_input("Please Enter your username ")
 while True:
     # Let the user enter some data to send
-    data = raw_input("Message>>")
+    data = raw_input("Message just trying aysush dont worry>>")
     read, write, error = select.select([],[sock],[],0)
     if len(write)!=0:
         # Send the data to the server
